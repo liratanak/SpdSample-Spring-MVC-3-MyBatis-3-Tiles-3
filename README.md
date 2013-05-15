@@ -1,11 +1,11 @@
-Spdample-Spring-MVC-3-MyBatis-3-Tiles-3
-=======================================
+Spdample by Spring MVC 3, MyBatis 3 ,and Tiles 3
+================================================
 
 *SpdSample* is just a sample web application starting with a simple feature, in the first version is just list POST which get from database. 
 
 *SpdSample*'s goal is want to make easy way to start, implement, test and maintenance a Web application projects by manipulate the feature of Spring MVC, Tiles, MyBatis, and MSSQL Server.
 
-*SpdSample* use default configuration with current latest stable GA of Spring MVC, Tiles and MyBatis. I used `spd` as the root package; I know it is not a good example BUT, I like it, ;) and one more think it is also **easy to find and replace**,(`spd` is not used by any parts of project as root package) if you use this apps as sample or skeleton for your project.
+*SpdSample* use default configuration with current latest stable GA of Spring MVC, Tiles and MyBatis. I used `spd` as the root package; I know it is not a good example **BUT**, I like it, ;) and one more think it is also **easy to find and replace**,(`spd` is not used by any parts of project as root package) if you use this apps as sample or skeleton for your project.
 
 ## Features ##
 - No redirect on root mapping 
@@ -16,6 +16,19 @@ Spdample-Spring-MVC-3-MyBatis-3-Tiles-3
  - `com.microsoft.sqlserver`, [more info](http://claude.betancourt.us/add-microsoft-sql-jdbc-driver-to-maven/) to use and resolve dependency by `maven` 
  
 - start with minimum dependency, easy to understand
+
+## Installation and Running ##
+
+### Installation ###
+
+Simply setting the MSSQL Server with database name and username and passwork correctly with database schema found in `src\main\resources\data\database\schema\tables.sql`
+
+### Running ###
+*(quick running command with Maven)*
+
+`mvn clean eclipse:clean eclipse:eclipse install tomcat:run`
+
+when it running properly then access by `http://localhost:8080/spdsample`
 
 ## TODO ##
 > These are path that I planed to do but now I just new to those tools and I also don not have much time.

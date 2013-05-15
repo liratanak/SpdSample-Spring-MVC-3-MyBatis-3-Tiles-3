@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="spd.speeder.spdsample.domain.mapper.AbstractEntityMapper">
+	<resultMap type="AbstractEntity" id="abstractEntityResultMap">
+		<id property="id" column="id" />
+		<result property="deleted" column="deleted" />
+		<result property="creationDatetime" column="creation_datetime" />
+		<result property="modificationDatetime" column="modification_datetime" />
+	</resultMap>
+</mapper>
