@@ -1,5 +1,6 @@
-Spdample by Spring MVC 3, MyBatis 3 ,and Tiles 3
-================================================
+Spdample 
+========
+> ## Spring MVC 3, MyBatis 3 ,and Tiles 3 ##
 
 *SpdSample* is just a sample web application starting with a simple feature, in the first version is just list POST which get from database. 
 
