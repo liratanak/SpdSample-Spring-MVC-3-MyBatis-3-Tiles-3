@@ -31,20 +31,6 @@ Simply setting the MSSQL Server with database name and username and passwork cor
 
 when it running properly then access by `http://localhost:8080/spdsample`
 
-## TODO ##
-> These are path that I planed to do but now I just new to those tools and I also don not have much time.
-
-- Error page handle
-- Spring security
-- More example about MyBatis (modularized and re-usable code)
-- Maven archetype within the template
-- AOP
-- Unit testing
-- Messaging
-- Ajax with DWR
-- Web Services and Remoting 
-- ...
-
 ## Reference ##
 
 - Spring MVC showcase https://github.com/SpringSource/spring-mvc-showcase
