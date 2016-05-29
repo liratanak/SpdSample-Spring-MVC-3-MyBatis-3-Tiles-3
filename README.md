@@ -1,4 +1,4 @@
-Spdample 
+SpdSample 
 ========
 > ## Spring MVC 3, MyBatis 3 ,and Tiles 3 ##
 
