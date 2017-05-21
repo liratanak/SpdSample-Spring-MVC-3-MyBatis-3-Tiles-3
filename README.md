@@ -12,7 +12,7 @@ SpdSample
 - No redirect on root mapping 
 - Separated the config and web
 - Use `Apache Tiles`, a templating framework
-- Easy to swictable with two MSSLQ driver 
+- Easy to swictable with two MSSQL Server driver 
  - `net.sourceforge.jtds` as default
  - `com.microsoft.sqlserver`, [more info](http://claude.betancourt.us/add-microsoft-sql-jdbc-driver-to-maven/) to use and resolve dependency by `maven` 
  
